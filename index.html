@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Código EAN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Gerador de EAN</h2>
+        <div class="input-group">
+            <div class="input-field">
+                <label for="gs1">CÓDIGO GS1:</label>
+                <input id="gs1" type="text" name="gs1">
+            </div>
+            <div class="input-field">
+                <label for="cnpj">CNPJ DA EMPRESA:</label>
+                <input id="cnpj" type="text" name="cnpj">
+            </div>
+            <div class="input-field">
+                <label for="codigo8">CÓDIGO DE 8 NÚMEROS:</label>
+                <input id="codigo8" type="text" name="codigo8">
+            </div>
+        </div>
+        
+        <button id="generate">Gerar</button>
+
+        <div id="result">
+            <span>
+                <!-- Aqui será exibido o código EAN gerado -->
+            </span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
