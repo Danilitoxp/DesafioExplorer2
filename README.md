@@ -6,7 +6,7 @@
 
 
 <p align="center">
-  <img alt="projeto Móveis Customizados" src="./Preview.jpg" width="100%">
+  <img alt="projeto Treine me" src="/images/preview.jpg" width="100%">
 </p>
 
 
